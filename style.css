@@ -1,0 +1,66 @@
+
+.navbar{
+    background-color: brown;
+    display: flex;
+    width: 100%;
+    
+}
+
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+.navbar img{
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+}
+
+.card{
+    background: white;
+    width: 220px;
+    border-radius: 25px;
+    margin: 40px;
+    color:black;
+}
+.card.image{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.car-1{
+    background-image: url('culture.jpg');
+}
+.car-2{
+    background-image: url('meditation.jpg');
+
+}
+.car-3{
+    background-image: url('events.jpg');
+}
+
+
+.card h2{
+    padding: 10px;
+
+}
+.card p{
+    padding: 10px;
+
+}
+.card a{
+    background-color: brown;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 20px;
+}
